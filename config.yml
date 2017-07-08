@@ -1,0 +1,23 @@
+# # # # # # # # # # # # # # # # # # # #
+# EssentialsFlyCheck | Configuration  #
+# » Report any issues on the forums.  #
+#                                     #
+# Placeholder: %player%               #
+# » This placeholder will be replaced #
+# » with the players username.        #
+#                                     #
+# Commands & Permissions:             #
+# » /flycheck | essentials.flycheck   #
+# # # # # # # # # # # # # # # # # # # # 
+
+# Incorrect usage message when a player doesn't provide a username
+incorrect-usage: '&8[&3FlyCheck&8] &7Incorrect usage: &f/flycheck [player]'
+
+# Player provided isn't online
+not-online: '&8[&3FlyCheck&8] &7That player needs to be online to be checked!'
+
+# Player has access to the /fly command
+yes-fly: '&8[&3FlyCheck&8] &f%player% &7has access to /fly!'
+
+# Player doesn't have access to the /fly command
+no-fly: '&8[&3FlyCheck&8] &f%player% &7does not have access to /fly!'

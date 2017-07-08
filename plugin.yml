@@ -1,0 +1,7 @@
+name: EssentialsFlyCheck
+main: com.wmillerrules.essentialsflycheck.main
+version: 1.0
+ 
+commands:
+    flycheck:
+        description: Check if user has access to essentials.fly
